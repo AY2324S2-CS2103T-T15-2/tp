@@ -392,19 +392,19 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. User uses the wrong format in his request.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. AddressBook shows an error message.")])]),_v(" "),_c('li',[_c('p',[_v("1a2. User uses the correct format as shown in the error message for his request.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("2a. The contact does not exist.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Find a specific existing contact")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: Find some specific contact(s)")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to find a specific contact.")])]),_v(" "),_c('li',[_c('p',[_v("AddressBook outputs the contact with all relevant information about the contact.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to find some contact(s).")])]),_v(" "),_c('li',[_c('p',[_v("AronaPro outputs the contact(s) with all relevant information about the contact.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. User uses the wrong format in his request.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. AddressBook shows an error message.")])]),_v(" "),_c('li',[_c('p',[_v("1a2. User uses the correct format as shown in the error message for his request.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("2a. The contact does not exist.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. AddressBook shows an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. User uses the wrong format in his request.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("1a1. AronaPro shows an error message.")])]),_v(" "),_c('li',[_c('p',[_v("1a2. User uses the correct format as shown in the error message for his request.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("2a. The contact does not exist.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. AronaPro shows an empty list, informing that no contacts were found.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: Assign an existing contact to a tutorial group")])])}
@@ -518,6 +518,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Open a command terminal, "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("cd")]),_v(" into the folder you put the jar file in, and delete the data file "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("data/addressbook.json")]),_v("."),_c('br'),_v("\nExpected: The app should create a new data file with default data when it is launched.")])]),_v(" "),_c('li',[_c('p',[_v("Open the data file "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("data/addressbook.json")]),_v(" in a text editor and delete some lines from the middle of the file."),_c('br'),_v("\nExpected: The app should show an error message and starts with an empty AronaPro.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Thu, 11 Apr 2024, 11:14:02 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Thu, 11 Apr 2024, 14:32:11 GMT+8]")])])])}
 }];
   
